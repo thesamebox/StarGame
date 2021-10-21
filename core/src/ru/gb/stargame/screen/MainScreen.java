@@ -25,7 +25,6 @@ public class MainScreen extends BaseScreen {
         super.render(delta);
         batch.begin();
         batch.draw(img, v.x, v.y);
-//        v.nor().add(touch);
         batch.end();
         v.add(touch).scl(0.5f);
 
